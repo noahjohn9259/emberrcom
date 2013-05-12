@@ -1,0 +1,103 @@
+/* Note book computer(1280x1024) */
+@media (min-width: 1201px) and (max-width: 1280px) {
+	.login1 p{margin-left: -15px;}
+	.login2 p,.login3 p{	margin-left: -4px;}
+	.list_all_text span{font-size: 11px;}
+	.list_all_text p{font-size: 15px;}
+	.text_mode{ margin-left: 0px !important; text-align: right;}
+	.btn-custom{margin-left: -30px !important;}
+	.login{width: 350px !important; }
+}
+
+/* Old computer (1024x768) */
+@media (min-width: 979px) and (max-width: 1200px) {
+	.fix_tablet{display: none !important;}
+	.login{width: 300px !important; margin-left:15% !important;}
+	.btn-custom{margin-left: -50px !important;}
+	.bs-docs-example{min-width: 450px !important;}
+	.pagination-bg{min-width: 450px !important;}
+}
+
+@media (min-width: 811px) and (max-width: 979px) {
+	.addlisting_phone{display: none !important;}
+	.login1 p{margin-left: -15px;}
+	.login{width: 300px !important; margin-left:5% !important;}
+	.login2 p,.login3 p{	margin-left: -4px;}
+	.list_all_text span{font-size: 11px;}
+	.fix_tablet{display: none !important;}
+	.list_all_text p{font-size: 15px;}
+	.text_mode{ margin-left: 0px !important;  text-align: right;}
+	.btn-custom{margin-left: -50px !important;}
+	
+}
+
+/* Small tablet landscape (800x600) */
+@media (min-width: 771px) and (max-width: 810px) {
+	.addlisting_phone{display: none !important;}
+	.login1 p{margin-left: -15px;}
+	.login{width: 300px !important; margin-left:5% !important;}
+	.login2 p,.login3 p{	margin-left: -4px;}
+	.list_all_text span{font-size: 11px;}
+	.fix_tablet{display: none !important;}
+	.list_all_text p{font-size: 15px;}
+	.text_mode{ margin-left: 0px !important;  text-align: right;}
+	.btn-custom{margin-left: -50px !important;}
+}
+
+/* Tablet portrait (768x1024) */
+@media (min-width: 751px) and (max-width: 770px) {
+	.login1 p{margin-left: 10px;}
+	.list_all_text p,
+	.list_all_text span{margin: -42px 0 -5px 50px;}
+	.text_mode{ margin-left: 0px !important; margin-top:-40px !important; text-align: right;}
+	.btn-fix{float:left !important;}
+	.footer_content {height: 70px !important;}
+	.pagination-fix{float:left;}
+	.pagination-bg{ padding-left: 70px; margin-left: -3px !important;}
+	.mymess_mobile{width:290px !important; margin-left: -65px !important;}
+	#myTab{width: 290px;}
+}
+
+/* Small tablet portrait (600x800) */
+@media (min-width: 481px) and (max-width: 650px) {
+	.login1 p{margin-left: 10px;}
+	.list_all_text p,
+	.list_all_text span{margin: -42px 0 -5px 50px;}
+	.text_mode{ margin-left: 0px !important; margin-top:-40px !important; text-align: right;}
+	.btn-fix{float:left !important;}
+	.footer_content {height: 70px !important;}
+	.pagination-fix{float:left;}
+	.pagination-bg{ padding-left: 70px; margin-left: -3px !important;}
+	.mymess_mobile{width:290px !important; margin-left: -65px !important;}
+	#myTab{width: 290px;}
+}
+
+/* Mobile landscape (480x320) */
+@media (min-width: 321px) and (max-width: 480px) {
+	.login1 p{margin-left: 10px;}
+	.list_all_text p,
+	.list_all_text span{margin: -42px 0 -5px 50px;}
+	.text_mode{ margin-left: 0px !important; margin-top:-40px !important; text-align: right;}
+	.btn-fix{float:left !important;}
+	.footer_content {height: 70px !important;}
+	.pagination-fix{float:left;}
+	.pagination-bg{ padding-left: 70px; margin-left: -3px !important;}
+	.mymess_mobile{width:290px !important; margin-left: -75px !important;}
+	#myTab{width: 375px !important;}
+	.pagination-bg,
+	.bs-docs-example{min-width: 398px !important;}
+}
+
+/* Mobile portrait (320x480) */
+@media (max-width: 320px) {
+.login1 p{margin-left: 10px;}
+	.list_all_text p,
+	.list_all_text span{margin: -42px 0 -5px 50px;}
+	.text_mode{ margin-left: 0px !important; margin-top:-40px !important; text-align: right;}
+	.btn-fix{float:left !important;}
+	.footer_content {height: 70px !important;}
+	.pagination-fix{float:left;}
+	.pagination-bg{ padding-left: 70px; margin-left: -3px !important;}
+	.mymess_mobile{width:290px !important; margin-left: -65px !important;}
+	#myTab{width: 290px;}
+}
